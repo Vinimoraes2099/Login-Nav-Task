@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		246B95ED2E20630700AAC1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 246B95D72E20630600AAC1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246B95DE2E20630600AAC1A3;
+			remoteInfo = "Login Nav Tarefa";
+		};
+		246B95F72E20630700AAC1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 246B95D72E20630600AAC1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246B95DE2E20630600AAC1A3;
+			remoteInfo = "Login Nav Tarefa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		246B95DF2E20630600AAC1A3 /* Login Nav Tarefa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Nav Tarefa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246B95EC2E20630700AAC1A3 /* Login Nav TarefaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login Nav TarefaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246B95F62E20630700AAC1A3 /* Login Nav TarefaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login Nav TarefaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		246B95E12E20630600AAC1A3 /* Login Nav Tarefa */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Login Nav Tarefa";
+			sourceTree = "<group>";
+		};
+		246B95EF2E20630700AAC1A3 /* Login Nav TarefaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Login Nav TarefaTests";
+			sourceTree = "<group>";
+		};
+		246B95F92E20630700AAC1A3 /* Login Nav TarefaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Login Nav TarefaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246B95DC2E20630600AAC1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246B95E92E20630700AAC1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246B95F32E20630700AAC1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246B95D62E20630600AAC1A3 = {
+			isa = PBXGroup;
+			children = (
+				246B95E12E20630600AAC1A3 /* Login Nav Tarefa */,
+				246B95EF2E20630700AAC1A3 /* Login Nav TarefaTests */,
+				246B95F92E20630700AAC1A3 /* Login Nav TarefaUITests */,
+				246B95E02E20630600AAC1A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		246B95E02E20630600AAC1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				246B95DF2E20630600AAC1A3 /* Login Nav Tarefa.app */,
+				246B95EC2E20630700AAC1A3 /* Login Nav TarefaTests.xctest */,
+				246B95F62E20630700AAC1A3 /* Login Nav TarefaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		246B95DE2E20630600AAC1A3 /* Login Nav Tarefa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246B96002E20630700AAC1A3 /* Build configuration list for PBXNativeTarget "Login Nav Tarefa" */;
+			buildPhases = (
+				246B95DB2E20630600AAC1A3 /* Sources */,
+				246B95DC2E20630600AAC1A3 /* Frameworks */,
+				246B95DD2E20630600AAC1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				246B95E12E20630600AAC1A3 /* Login Nav Tarefa */,
+			);
+			name = "Login Nav Tarefa";
+			packageProductDependencies = (
+			);
+			productName = "Login Nav Tarefa";
+			productReference = 246B95DF2E20630600AAC1A3 /* Login Nav Tarefa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		246B95EB2E20630700AAC1A3 /* Login Nav TarefaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246B96032E20630700AAC1A3 /* Build configuration list for PBXNativeTarget "Login Nav TarefaTests" */;
+			buildPhases = (
+				246B95E82E20630700AAC1A3 /* Sources */,
+				246B95E92E20630700AAC1A3 /* Frameworks */,
+				246B95EA2E20630700AAC1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				246B95EE2E20630700AAC1A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				246B95EF2E20630700AAC1A3 /* Login Nav TarefaTests */,
+			);
+			name = "Login Nav TarefaTests";
+			packageProductDependencies = (
+			);
+			productName = "Login Nav TarefaTests";
+			productReference = 246B95EC2E20630700AAC1A3 /* Login Nav TarefaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		246B95F52E20630700AAC1A3 /* Login Nav TarefaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246B96062E20630700AAC1A3 /* Build configuration list for PBXNativeTarget "Login Nav TarefaUITests" */;
+			buildPhases = (
+				246B95F22E20630700AAC1A3 /* Sources */,
+				246B95F32E20630700AAC1A3 /* Frameworks */,
+				246B95F42E20630700AAC1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				246B95F82E20630700AAC1A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				246B95F92E20630700AAC1A3 /* Login Nav TarefaUITests */,
+			);
+			name = "Login Nav TarefaUITests";
+			packageProductDependencies = (
+			);
+			productName = "Login Nav TarefaUITests";
+			productReference = 246B95F62E20630700AAC1A3 /* Login Nav TarefaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		246B95D72E20630600AAC1A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					246B95DE2E20630600AAC1A3 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					246B95EB2E20630700AAC1A3 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 246B95DE2E20630600AAC1A3;
+					};
+					246B95F52E20630700AAC1A3 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 246B95DE2E20630600AAC1A3;
+					};
+				};
+			};
+			buildConfigurationList = 246B95DA2E20630600AAC1A3 /* Build configuration list for PBXProject "Login Nav Tarefa" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 246B95D62E20630600AAC1A3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 246B95E02E20630600AAC1A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				246B95DE2E20630600AAC1A3 /* Login Nav Tarefa */,
+				246B95EB2E20630700AAC1A3 /* Login Nav TarefaTests */,
+				246B95F52E20630700AAC1A3 /* Login Nav TarefaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		246B95DD2E20630600AAC1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246B95EA2E20630700AAC1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246B95F42E20630700AAC1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246B95DB2E20630600AAC1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246B95E82E20630700AAC1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246B95F22E20630700AAC1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		246B95EE2E20630700AAC1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 246B95DE2E20630600AAC1A3 /* Login Nav Tarefa */;
+			targetProxy = 246B95ED2E20630700AAC1A3 /* PBXContainerItemProxy */;
+		};
+		246B95F82E20630700AAC1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 246B95DE2E20630600AAC1A3 /* Login Nav Tarefa */;
+			targetProxy = 246B95F72E20630700AAC1A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		246B95FE2E20630700AAC1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		246B95FF2E20630700AAC1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		246B96012E20630700AAC1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vinicius.Login-Nav-Tarefa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		246B96022E20630700AAC1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vinicius.Login-Nav-Tarefa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		246B96042E20630700AAC1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vinicius.Login-Nav-TarefaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Nav Tarefa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Login Nav Tarefa";
+			};
+			name = Debug;
+		};
+		246B96052E20630700AAC1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vinicius.Login-Nav-TarefaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Nav Tarefa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Login Nav Tarefa";
+			};
+			name = Release;
+		};
+		246B96072E20630700AAC1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vinicius.Login-Nav-TarefaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Login Nav Tarefa";
+			};
+			name = Debug;
+		};
+		246B96082E20630700AAC1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vinicius.Login-Nav-TarefaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Login Nav Tarefa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246B95DA2E20630600AAC1A3 /* Build configuration list for PBXProject "Login Nav Tarefa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246B95FE2E20630700AAC1A3 /* Debug */,
+				246B95FF2E20630700AAC1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246B96002E20630700AAC1A3 /* Build configuration list for PBXNativeTarget "Login Nav Tarefa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246B96012E20630700AAC1A3 /* Debug */,
+				246B96022E20630700AAC1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246B96032E20630700AAC1A3 /* Build configuration list for PBXNativeTarget "Login Nav TarefaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246B96042E20630700AAC1A3 /* Debug */,
+				246B96052E20630700AAC1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246B96062E20630700AAC1A3 /* Build configuration list for PBXNativeTarget "Login Nav TarefaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246B96072E20630700AAC1A3 /* Debug */,
+				246B96082E20630700AAC1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 246B95D72E20630600AAC1A3 /* Project object */;
+}
