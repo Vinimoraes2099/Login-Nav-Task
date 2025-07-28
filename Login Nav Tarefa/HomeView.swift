@@ -3,7 +3,8 @@ import SwiftUI
 struct HomeView: View {
     var username: String
     @State private var animate = false
-
+    @State private var hasAppeared = false
+    
     var body: some View {
         VStack(spacing: 30) {
             Text("Welcome!")
@@ -12,8 +13,7 @@ struct HomeView: View {
                 .fontWeight(.bold)
                 .scaleEffect(animate ? 1.1 : 1.0)
                 .animation(.easeInOut(duration: 1).repeatForever(autoreverses: true), value: animate)
-                .onAppear { animate = true }
-
+            
             Image("Luffy2")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
@@ -24,7 +24,7 @@ struct HomeView: View {
                 .overlay(Circle().stroke(Color.purple, lineWidth: 2))
                 .foregroundColor(.red)
                 .padding(.bottom, 20)
-
+            
             Text("Hello, \(username)!")
                 .font(.title2)
                 .fontWeight(.medium)
@@ -43,7 +43,7 @@ struct HomeView: View {
                     .linear(duration: 3).repeatForever(autoreverses: false),
                     value: animate
                 )
-
+            
             Text("Before going to the Grand Line, we must do some tasks. Let's check it out on the next page!")
                 .font(.body)
                 .multilineTextAlignment(.center)
@@ -56,9 +56,9 @@ struct HomeView: View {
                     .easeInOut(duration: 1.5).repeatForever(autoreverses: true),
                     value: animate
                 )
-
+            
             Spacer()
-
+            
             NavigationLink(destination: TaskListView(username: username)) {
                 Text("Go to the Grand Line!")
                     .frame(maxWidth: .infinity)
@@ -76,12 +76,24 @@ struct HomeView: View {
                     .padding(.horizontal)
             }
             .padding(.top, 20)
-
+            
             Spacer()
         }
         .padding()
         .navigationTitle("Home")
         .navigationBarTitleDisplayMode(.inline)
+        .onAppear {
+            if !hasAppeared {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                    animate = true
+                    hasAppeared = true
+                }
+            }
+        }
+        .onDisappear {
+            animate = false
+            hasAppeared = false
+        }
     }
 }
 

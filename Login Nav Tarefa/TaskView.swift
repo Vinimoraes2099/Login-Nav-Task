@@ -117,4 +117,3 @@ struct TaskRow: View {
 #Preview {
     TaskListView(username: "User")
 }
-

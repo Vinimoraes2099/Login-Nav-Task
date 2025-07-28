@@ -13,7 +13,9 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .foregroundColor(.red)
                     .fontWeight(.bold)
-
+                
+                Spacer()
+                
                 Image("Luffy")
                     .resizable()
                     .clipShape(Circle())
@@ -36,7 +38,9 @@ struct ContentView: View {
 
                 Button(action: {
                     if !username.isEmpty && !password.isEmpty {
-                        goHome = true
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                            goHome = true
+                        }
                     } else {
                         showAlert = true
                     }
@@ -50,10 +54,11 @@ struct ContentView: View {
                         .cornerRadius(10)
                 }
 
-                NavigationLink(destination: HomeView(username: username), isActive: $goHome) {
-                    EmptyView()
+                .fullScreenCover(isPresented: $goHome) {
+                    NavigationView {
+                        HomeView(username: username)
+                    }
                 }
-                .hidden()
 
                 Spacer()
 
@@ -84,7 +89,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    NavigationView {
-        ContentView()
-    }
+    ContentView() // *
 }
